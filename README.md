@@ -12,7 +12,7 @@
 
 파이썬에서 사용 방법
 (예시 스크립트)
-'''python
+```python
 from picture_evo import evolution
 from picture_evo import helpers
 import numpy as np
@@ -30,7 +30,7 @@ helpers.show_image(e.specie.phenotype)
 np.savetxt("Checkpoint.txt", e.specie.genotype)
 #표현형 저장
 cv2.imwrite("ImageOutput.jpg", e.specie.phenotype)
-'''
+```
 
 체크포인트 저장 방법 
 
@@ -50,4 +50,4 @@ e.specie.genotype = genes
 
 # 50k만큼 다시 진화
 e.evolve(max_generation=50000)
-'''
+```
