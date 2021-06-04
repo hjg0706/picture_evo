@@ -10,7 +10,7 @@
 
 --genes: 원의 개수 // 기본값: 256
 
---max-generations: Number of generations to run // 기본값: 500,000
+--max-generations: 진화 횟수 // 기본값: 500,000
 
 파이썬에서 사용 방법
 (예시 스크립트)
