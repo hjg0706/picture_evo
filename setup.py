@@ -21,7 +21,7 @@ setup(
     url="https://github.com/hjg0706/picture_evo",
     packages=find_packages(),
     download_url="",
-    author="Hong Jungi"
+    author="Hong Jungi",
     python_requires=">=3.6",
     setup_requires=["wheel"],
     install_requires=INSTALL_REQUIRES,
