@@ -37,12 +37,12 @@ cv2.imwrite("ImageOutput.jpg", e.specie.phenotype)
 체크포인트 저장 방법 
 
 ```python
-from circle_evolution import evolution
-from circle_evolution import helpers
+from picture_evo import evolution
+from picture_evo import helpers
 import numpy as np
 import cv2
 
-target = helpers.load_target_image("Mona Lisa 64.jpg", size=(64, 64))
+target = helpers.load_target_image("XX 64.jpg", size=(64, 64))
 
 e = evolution.Evolution((64, 64), target)
 
