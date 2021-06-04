@@ -4,7 +4,7 @@
 터미널에서 picture_evo과 기타 사항 입력하면 변환이 된다.
 [예시 사용법]
 
-	Picture "Junyeong 64.jpg" --size 1 --genes 256 --max-generations 50000
+	picture_evo "Junyeong 64.jpg" --size 1 --genes 256 --max-generations 50000
 
 --size: 이미지 크기 {1: (64x64), 2: (128x128), 3: (256x256)} //기본값: 2
 
