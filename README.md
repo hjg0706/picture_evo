@@ -7,7 +7,9 @@
 	Picture "Junyeong 64.jpg" --size 1 --genes 256 --max-generations 50000
 
 --size: 이미지 크기 {1: (64x64), 2: (128x128), 3: (256x256)} //기본값: 2
+
 --genes: 원의 개수 // 기본값: 256
+
 --max-generations: Number of generations to run // 기본값: 500,000
 
 파이썬에서 사용 방법
