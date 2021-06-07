@@ -7,7 +7,6 @@ class Specie:
         self.genotype = genotype if genotype is not None else np.random.rand(genes, 5)
         self.phenotype = np.zeros(size)
 
-    @property
     def genes(self):
         return self.genotype.shape[0]
 
