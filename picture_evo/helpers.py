@@ -15,11 +15,6 @@ def load_target_image(image_path, color=cv2.COLOR_BGR2GRAY, size=None):
 
 
 def show_image(img_arr):
-    """Displays image on window.
-
-    Arguments:
-        img_arr (numpy.ndarray): image array to be displayed
-    """
     plt.figure()
     plt.axis("off")
     plt.imshow(img_arr, cmap="gray", vmin=0, vmax=255)
